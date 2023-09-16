@@ -35,4 +35,4 @@ if city and region:
 
     st.image(f'images/{img_path}.png')
 else:
-    st.write('Unable to process location')
+    st.write('Enter your location')
