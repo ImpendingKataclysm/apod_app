@@ -2,7 +2,7 @@ import streamlit as st
 import geocoder
 
 api_key = st.secrets['WEATHER_API_KEY']
-location = geocoder.ipinfo('me')
+g = geocoder.ipinfo('me')
 
 st.title('New Page')
-st.write(location.latlng)
+st.write(g.latlng)
