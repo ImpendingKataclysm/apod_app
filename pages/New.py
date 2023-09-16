@@ -1,4 +1,6 @@
 import streamlit as st
 
+api_key = st.secrets['WEATHER_API_KEY']
+
 st.title('New Page')
-st.write('content will go here...')
+st.write(api_key)
